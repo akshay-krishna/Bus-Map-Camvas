@@ -4,9 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {
-    host: '0.0.0.0', // Allow connections from any IP
-    port: 5173,      // Custom port (you can change this if necessary)
-  },
+  base: 'https://akshay-krishna.github.io/Bus-Map-Canvas/',
 })
-
