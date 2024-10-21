@@ -1,0 +1,275 @@
+{
+  "total_seats": 45,
+  "lower_deck": {
+    "total_rows": 4,
+    "total_columns": 4,
+    "columns": {
+      "1": {
+        "alignment": [
+          {
+            "row": 2,
+            "seat_name": "L1",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "pushback",
+            "seat_price": 150.0,
+            "isActive": true
+          },
+          {
+            "row": 3,
+            "seat_name": "L2",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "pushback",
+            "seat_price": 150.0,
+            "isActive": true
+          },
+          {
+            "row": 4,
+            "seat_name": "L3",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "pushback",
+            "seat_price": 150.0,
+            "isActive": true
+          }
+        ]
+      },
+      "2": {
+        "alignment": [
+          {
+            "row": 2,
+            "seat_name": "L4",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "normal",
+            "seat_price": 100.0,
+            "isActive": true
+          },
+          {
+            "row": 3,
+            "seat_name": "L5",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "normal",
+            "seat_price": 100.0,
+            "isActive": true
+          },
+          {
+            "row": 4,
+            "seat_name": "L6",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "normal",
+            "seat_price": 100.0,
+            "isActive": true
+          }
+        ]
+      },
+      "3": {
+        "alignment": [
+          {
+            "row": 4,
+            "seat_name": "L99",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "normal",
+            "seat_price": 100.0,
+            "isActive": true
+          }
+        ]
+      },
+      "4": {
+        "alignment": [
+          {
+            "row": 1,
+            "seat_name": "L7",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "sleeper",
+            "seat_price": 100.0,
+            "isActive": true
+          },
+          {
+            "row": 2,
+            "seat_name": "L8",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "sleeper",
+            "seat_price": 100.0,
+            "isActive": true
+          },
+          {
+            "row": 3,
+            "seat_name": "L9",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "sleeper",
+            "seat_price": 100.0,
+            "isActive": true
+          },
+          {
+            "row": 4,
+            "seat_name": "L10",
+            "quota": "normal",
+            "status": "open",
+            "position": "window",
+            "type": "sleeper",
+            "seat_price": 100.0,
+            "isActive": true
+          }
+        ]
+      }
+    }
+  },
+
+  "upper_deck": {
+    "total_rows": 4,
+    "total_columns": 4,
+    "columns": {
+      "1": {
+        "alignment": [
+          {
+            "row": 1,
+            "seat_name": "U1",
+            "quota": "ladies",
+            "status": "reserved",
+            "position": "window",
+            "type": "sleeper",
+            "seat_price": 180.0,
+            "isActive": true
+          },
+          {
+            "row": 2,
+            "seat_name": "U2",
+            "quota": "ladies",
+            "status": "open",
+            "position": "window",
+            "type": "sleeper",
+            "seat_price": 180.0,
+            "isActive": true
+          },
+          {
+            "row": 3,
+            "seat_name": "U3",
+            "quota": "ladies",
+            "status": "open",
+            "position": "window",
+            "type": "sleeper",
+            "seat_price": 180.0,
+            "isActive": true
+          },
+          {
+            "row": 4,
+            "seat_name": "U4",
+            "quota": "ladies",
+            "status": "open",
+            "position": "window",
+            "type": "sleeper",
+            "seat_price": 180.0,
+            "isActive": true
+          }
+        ]
+      },
+      "2": {
+        "alignment": [
+          {
+            "row": 1,
+            "seat_name": "U5",
+            "quota": "normal",
+            "status": "blocked",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 250.0,
+            "isActive": true
+          },
+          {
+            "row": 2,
+            "seat_name": "U6",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 180.0,
+            "isActive": true
+          },
+          {
+            "row": 3,
+            "seat_name": "U7",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 180.0,
+            "isActive": true
+          },
+          {
+            "row": 4,
+            "seat_name": "U8",
+            "quota": "normal",
+            "status": "open",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 180.0,
+            "isActive": true
+          }
+        ]
+      },
+      "3": null,
+      "4": {
+        "alignment": [
+          {
+            "row": 1,
+            "seat_name": "U9",
+            "quota": "normal",
+            "status": "blocked",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 250.0,
+            "isActive": true
+          },
+          {
+            "row": 2,
+            "seat_name": "U10",
+            "quota": "normal",
+            "status": "blocked",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 250.0,
+            "isActive": true
+          },
+          {
+            "row": 3,
+            "seat_name": "U11",
+            "quota": "normal",
+            "status": "blocked",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 250.0,
+            "isActive": true
+          },
+          {
+            "row": 4,
+            "seat_name": "U12",
+            "quota": "normal",
+            "status": "blocked",
+            "position": "aisle",
+            "type": "sleeper",
+            "seat_price": 250.0,
+            "isActive": true
+          }
+        ]
+      }
+    }
+  }
+}

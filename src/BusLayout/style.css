@@ -1,0 +1,28 @@
+.column {
+  display: flex;
+  margin: 5px;
+  justify-content: space-around;
+}
+
+.deck {
+  display: flex;
+  flex-direction: column;
+}
+
+.aisle {
+  margin: 10px;
+  height: 30px;
+}
+
+.seater-sleeper {
+  cursor: pointer;
+}
+
+.inactive {
+  visibility: hidden;
+}
+
+.emptySpace {
+  width: 30px;
+  height: 30px;
+}
